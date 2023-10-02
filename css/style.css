@@ -102,3 +102,13 @@ nav {
     background-color: black;
     border-radius: 20px;
 }
+
+@media screen and (min-width: 993px) {
+    .container-60 {
+        width: 60%;
+    }
+
+    #planning .col-planning {
+        width: calc(100% / 2 - 1rem / 2);
+    }
+}
