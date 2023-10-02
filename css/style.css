@@ -112,3 +112,15 @@ nav {
         width: calc(100% / 2 - 1rem / 2);
     }
 }
+
+/* testimonials */
+#testimonials {
+    padding-bottom: 2rem;
+}
+
+.col-testimonials {
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    border-radius: 20px;
+}
