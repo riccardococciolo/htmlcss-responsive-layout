@@ -40,3 +40,29 @@ nav {
     font-size: 1.5rem;
     color: white;
 }
+
+/* main */
+
+/* hero */
+.hero {
+    padding-top: var(--nav-height);
+}
+
+.container-70 {
+    width: 100%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.col {
+    width: 100%;
+    height: 500px;
+    background-color: var(--card-blue);
+    border-radius: 20px;
+}
