@@ -44,7 +44,7 @@ nav {
 /* main */
 
 /* hero */
-.hero {
+#hero {
     padding-top: var(--nav-height);
 }
 
@@ -65,4 +65,20 @@ nav {
     height: 500px;
     background-color: var(--card-blue);
     border-radius: 20px;
+}
+
+@media screen and (min-width: 769px) {
+    #hero .col {
+        width: calc(100% / 3 - 2rem / 3);
+    }
+
+    #hero .col-big {
+        width: calc(100% * 2 / 3 - 1rem / 3);
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .container-70 {
+        width: 70%;
+    }
 }
