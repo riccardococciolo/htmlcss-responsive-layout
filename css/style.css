@@ -158,3 +158,31 @@ nav {
         width: calc(100% / 3 - 2rem / 3);
     }
 }
+
+/* about-us */
+#about-us {
+    padding: 3rem 0;
+}
+
+.col-about-us {
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 769px) {
+    #about-us .col-about-us {
+        width: calc(100% / 2 - 1rem / 2);
+    }
+}
+
+@media screen and (min-width: 993px) {
+    #about-us .col-about-us {
+        width: calc(100% / 3 - 2rem / 3);
+    }
+
+    #about-us .col-big {
+        width: calc(100% * 2 / 3 - 1rem / 3);
+    }
+}
