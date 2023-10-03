@@ -88,11 +88,23 @@ body {
 }
 
 .padding {
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .violet {
     color: var(--violet-main);
+}
+
+.full-width {
+    width: 100%;
+}
+
+.grey {
+    color: grey;
+}
+
+.orange {
+    color: var(--title-orange);
 }
 
 /* header */
@@ -279,9 +291,17 @@ header ul {
 
 .col-benefits {
     width: 100%;
-    height: 500px;
-    background-color: brown;
     border-radius: 20px;
+    background-color: white;
+}
+
+.col-benefits i {
+    font-size: 4rem;
+}
+
+.button-violet {
+    background-color: var(--violet-main);
+    color: white;
 }
 
 @media screen and (min-width: 769px) {
@@ -303,8 +323,6 @@ header ul {
 
 .col-about-us {
     width: 100%;
-    height: 500px;
-    background-color: blue;
     border-radius: 20px;
 }
 
@@ -338,8 +356,6 @@ header ul {
 
 .col-cta {
     width: 100%;
-    height: 500px;
-    background-color: grey;
     border-radius: 20px;
 }
 
@@ -363,7 +379,5 @@ footer {
 
 .col-footer {
     width: 100%;
-    height: 200px;
-    background-color: rgb(184, 24, 24);
     border-radius: 20px;
 }
