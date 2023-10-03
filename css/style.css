@@ -45,6 +45,10 @@ body {
     font-size: 1.2rem;
 }
 
+.end {
+    justify-content: end;
+}
+
 /* utilities */
 .tac {
     text-align: center;
@@ -77,6 +81,18 @@ body {
 
 .center {
     justify-content: center;
+}
+
+.white {
+    color: white;
+}
+
+.padding {
+    padding: 1rem;
+}
+
+.violet {
+    color: var(--violet-main);
 }
 
 /* header */
@@ -205,9 +221,13 @@ header ul {
 
 .col-planning {
     width: 100%;
-    height: 500px;
-    background-color: black;
     border-radius: 20px;
+}
+
+.card-white {
+    width: 100%;
+    border-radius: 50px;
+    background-color: white;
 }
 
 @media screen and (min-width: 993px) {
@@ -227,9 +247,28 @@ header ul {
 
 .col-testimonials {
     width: 100%;
-    height: 500px;
-    background-color: red;
     border-radius: 20px;
+}
+
+.card-violet {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    border-radius: 50px;
+    background-color: var(--violet-main);
+    padding: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .box-25 {
+        width: 25%;
+    }
+
+    .box-75 {
+        width: 75%;
+        padding-left: 1rem;
+    }
 }
 
 /* benefits */
