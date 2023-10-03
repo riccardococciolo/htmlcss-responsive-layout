@@ -26,6 +26,23 @@ body {
     padding: .3rem .6rem;
     border-radius: 25px;
     color: black;
+    display: inline-block;
+    text-align: center;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-big {
+    background-color: var(--nav-color);
+    padding: .3rem 2.5rem;
+    border-radius: 25px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 /* utilities */
@@ -35,6 +52,31 @@ body {
 
 .vp {
     padding: 2rem 0;
+}
+
+.color-blue {
+    color: var(--nav-color);
+}
+
+.pb-1 {
+    padding-bottom: 1.5rem;
+}
+
+.line-height {
+    line-height: 1.5rem;
+}
+
+.pt-1 {
+    padding-top: 1.5rem;
+}
+
+.fs-icon {
+    font-size: 3rem;
+    width: 100%;
+}
+
+.center {
+    justify-content: center;
 }
 
 /* header */
@@ -74,6 +116,7 @@ header a {
 
 header ul {
     display: flex;
+    align-items: center;
     gap: 1rem;
 }
 
@@ -113,9 +156,15 @@ header ul {
 
 .col-hero {
     width: 100%;
-    height: 500px;
     background-color: var(--card-blue);
     border-radius: 20px;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+#hero a {
+    text-decoration: none;
+    color: white;
 }
 
 @media screen and (min-width: 769px) {
@@ -131,6 +180,14 @@ header ul {
 @media screen and (min-width: 993px) {
     .container-70 {
         width: 70%;
+    }
+
+    .box-60 {
+        width: 60%;
+    }
+    
+    .box-40 {
+        width: 40%;
     }
 }
 
